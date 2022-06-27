@@ -1,0 +1,65 @@
+/* header stuff */
+.web-header {
+    background-color: #7B7184;
+    color: #F4F2F2;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    line-height: 70px;
+}
+
+a, a:hover, a:focus, a:active { 
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-right: 50px;
+}
+
+.page-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1E1F3A;
+    font-weight: bolder;
+}
+
+hr.rounded {
+    border-top: 8px solid #1E1F3A;
+    border-radius: 5px;
+}
+
+.about {
+    color: #F4F2F2;
+    font-weight: bolder;
+    font-size: large;
+}
+
+p {
+    color: #1E1F3A;
+    font-weight: bold;
+    font-size: large;
+}
+
+.float-container {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.float-child {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 10px;
+    padding: 2rem 10rem 2rem 2rem;
+    vertical-align: middle;
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    line-height: 40px;
+    background-color: #7B7184;
+    border-radius: 10px;
+}
+  
