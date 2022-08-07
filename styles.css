@@ -1,4 +1,16 @@
 /* header stuff */
+
+div.gallery {
+    margin: 20px 30px 20px 20px;
+    float: left;
+    width: 180px;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
 .web-header {
     background-color: #7B7184;
     color: #F4F2F2;
@@ -19,7 +31,7 @@ a, a:hover, a:focus, a:active {
     padding-right: 50px;
 }
 
-.page-title {
+#page-title {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #1E1F3A;
@@ -41,6 +53,10 @@ p {
     color: #1E1F3A;
     font-weight: bold;
     font-size: large;
+}
+
+.clickable:hover {
+    color: rgb(224, 199, 228);
 }
 
 .float-container {

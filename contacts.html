@@ -2,26 +2,67 @@
 
 <html>
 
+    <head>
+        <style>
+            a[href$="@ualberta.ca"] {
+                color: #d39ef7;
+            }
+            .float-container {
+                margin: 1rem;
+                padding: 2rem 2rem;
+                text-align: center;
+            }
+
+            .float-child {
+                font-family: Arial, Helvetica, sans-serif;
+                display: inline-block;
+                margin: 10px;
+                padding: 2rem 10rem 2rem 2rem;
+                vertical-align: middle;
+                width: 800px;
+                height: 200px;
+                text-align: left;
+                line-height: 40px;
+                background-color: #7B7184;
+                border-radius: 10px;
+            }
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #F4F2F2;
+                font-weight: bolder;
+                font-size: larger;
+            }
+
+            a:hover {
+                color: #301436;
+            }
+
+            a {
+                color: #F4F2F2;
+            }
+        </style>
+    </head>
+
     <body>
+        <div class="float-container">
+            <div class="float-child">
+                <p>
+                    hello, future technology expert. 
+                </p>
+            
+                <p>
+                    if you have any questions about the project, feel free to email me at <a href="mailto: ayuno@ualberta.ca">ayuno@ualberta.ca</a>.
+                </p>
+            </div>
 
-    <p>
-        hello, future technology expert. 
-    </p>
-
-    <br>
-
-    <p>
-        if you have any questions about the project, click the email 
-        button.
-    </p>
-
-    <br>
-
-    <p>
-        follow me on github if you are interested in seeing more 
-        projects.
-    </p>
-
+            <div class="float-child">
+                <p>
+                    <a href="https://github.com/kezzayuno">follow me on github</a> if you are interested in seeing more 
+                    projects.
+                </p>            
+            </div>
+        </div>
     </body>
 
 </html>
