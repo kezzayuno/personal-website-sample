@@ -11,3 +11,4 @@ In order to run it, there are three options:
     5. Go to your browser and type localhost:8080
 3. Run the command in CMD, python -m http.server 
     - In your browser search up: localhost:8000
+4. Add the extension on VSCode: Live Server
